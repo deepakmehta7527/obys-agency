@@ -815,6 +815,8 @@ body {
     font-size: 1vw;
 }
 
+
+/*########## use .canvas container then 3d effect will apply ##########*/
 ._canvas_container {
     z-index: 999999 !important;
     pointer-events: none;

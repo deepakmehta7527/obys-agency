@@ -1,0 +1,59 @@
+//use "shery.js" update version of `cdn "shery/ayushchauhan"
+//script use "3d effect"
+
+//cdn use  according to given order in "html"
+
+//in timeline you give priority
+tl.from(
+    "#hero1, #page2",
+    {
+      opacity: 0,
+    },
+ //use this line "it will first run" after use "-=1.2" as compare to other in timelinw
+    "-=1.2"
+  );
+}
+
+
+//use cdn in sequence wise like
+
+a)locomotive
+b)gsap.min.js
+c)ScrollTrigger
+d)three js effect
+e)controlKit cdn
+f)sheryjs
+g)script.js
+
+
+//canvas containe need to use for 3d effect
+//in js file 'Shery.imageEffect(".image-div",{
+  debug:-it used to manually debu of effect like speed etc
+  gooey:-it used to manually give height of effect and many more
+})
+after  set then you will see above debug 'saving option" click
+there and save or "copy" and paste inside `config:"..." `
+and comment out `debug`
+
+//"textillate.js" ka use kiya gya jha manually aap text ko design de
+skte ho kese woh `fade-in` aur `fade-out` hota hai in animation form
+but eska kafi uses ab industry main nhi hota hai
+
+//###############Special case after complete "style of css" #################
+a)jis bnde ke "pc" main font install nhi hai woh kese dekhege tho uske liye
+liye use krte hai "@font-face" kese use krna example:-
+@font-face {
+    font-family: "Plain Light";
+    src: url(./fonts/plain-light-webfont.ttf);
+}
+
+
+b)"css style" sbhi different browser main kaam kre tho eske liye use krte hai
+ek website ka jiska naam hai "autoprefixer css online" search krne ke baad
+sbhi `css code" ko krna hai "copy" aur "paste" in website main uske baad jo
+"convert" huwa hai usko "copy" krna hai aur "css" file main "paste"
+ess se yeh hoga ki ye "website" automatic fix kr denga aur sabhi "browser" "
+main ab ye "work" krega
+
+c)ab github pe upload krne ke baad "setting" me ja ke set kr dena hai "main" pe aur ab host ka link aw
+jayega now your website is on host
